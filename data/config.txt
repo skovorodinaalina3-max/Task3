@@ -1,0 +1,7 @@
+5 30
+Alice 2
+Bob 1
+Charlie 3
+Diana 2
+Eve 1
+Frank 4

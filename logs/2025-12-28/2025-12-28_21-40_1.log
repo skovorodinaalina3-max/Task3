@@ -1,0 +1,11 @@
+21:40:47.084 [main] INFO  skovorodina.task3.reader.impl.FileReaderImpl - Read 7 lines from data/config.txt
+21:40:47.089 [main] INFO  com.skovorodina.task3.main.Main - Restaurant: 5 tables, 30 food
+21:40:47.092 [main] INFO  com.skovorodina.task3.main.Main - Starting simulation with 6 visitors
+21:40:47.094 [pool-2-thread-2] INFO  com.skovorodina.task3.entity.Visitor - Visitor Bob (ID: 2) arrived at restaurant
+21:40:47.094 [pool-2-thread-1] INFO  com.skovorodina.task3.entity.Visitor - Visitor Alice (ID: 1) arrived at restaurant
+21:40:47.094 [pool-2-thread-4] INFO  com.skovorodina.task3.entity.Visitor - Visitor Diana (ID: 4) arrived at restaurant
+21:40:47.094 [pool-2-thread-3] INFO  com.skovorodina.task3.entity.Visitor - Visitor Charlie (ID: 3) arrived at restaurant
+21:40:47.094 [pool-2-thread-5] INFO  com.skovorodina.task3.entity.Visitor - Visitor Eve (ID: 5) arrived at restaurant
+21:40:47.095 [pool-2-thread-4] INFO  com.skovorodina.task3.entity.Visitor - Visitor Diana (ID: 4) left restaurant
+21:40:47.095 [pool-2-thread-1] INFO  com.skovorodina.task3.entity.Visitor - Visitor Alice (ID: 1) left restaurant
+21:40:47.095 [pool-2-thread-2] INFO  com.skovorodina.task3.entity.Visitor - Visitor Bob (ID: 2) left restaurant

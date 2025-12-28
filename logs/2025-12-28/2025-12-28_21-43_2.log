@@ -1,0 +1,10 @@
+21:43:33.764 [pool-2-thread-5] INFO  com.skovorodina.task3.resource.Restaurant - Table taken. Free tables: 2
+21:43:33.764 [pool-2-thread-1] INFO  com.skovorodina.task3.resource.Restaurant - Table taken. Free tables: 4
+21:43:33.764 [pool-2-thread-2] INFO  com.skovorodina.task3.resource.Restaurant - Table taken. Free tables: 3
+21:43:33.764 [pool-2-thread-3] INFO  com.skovorodina.task3.resource.Restaurant - Table taken. Free tables: 0
+21:43:33.764 [pool-2-thread-4] INFO  com.skovorodina.task3.resource.Restaurant - Table taken. Free tables: 1
+21:43:33.771 [pool-2-thread-5] INFO  com.skovorodina.task3.resource.Restaurant - Food taken: 1. Left: 29
+21:43:33.772 [pool-2-thread-5] INFO  com.skovorodina.task3.entity.Visitor - Eve eating 1 dishes
+21:43:33.772 [pool-2-thread-4] INFO  com.skovorodina.task3.resource.Restaurant - Food taken: 2. Left: 27
+21:43:33.773 [pool-2-thread-4] INFO  com.skovorodina.task3.entity.Visitor - Diana eating 2 dishes
+21:43:33.773 [pool-2-thread-1] INFO  com.skovorodina.task3.resource.Restaurant - Food taken: 2. Left: 25

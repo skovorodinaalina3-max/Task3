@@ -1,0 +1,10 @@
+21:43:33.977 [pool-2-thread-3] INFO  com.skovorodina.task3.entity.Visitor - Charlie left after eating
+21:43:33.976 [pool-2-thread-4] INFO  com.skovorodina.task3.resource.Restaurant - Table freed. Free tables: 2
+21:43:34.002 [pool-2-thread-3] INFO  com.skovorodina.task3.resource.Restaurant - Table freed. Free tables: 4
+21:43:33.998 [pool-2-thread-2] INFO  com.skovorodina.task3.entity.Visitor - Frank (ID: 6) arrived, wants 4 dishes
+21:43:33.978 [pool-2-thread-1] INFO  com.skovorodina.task3.entity.Visitor - Alice left after eating
+21:43:34.003 [pool-2-thread-2] INFO  com.skovorodina.task3.resource.Restaurant - Table taken. Free tables: 3
+21:43:34.003 [pool-2-thread-2] INFO  com.skovorodina.task3.resource.Restaurant - Food taken: 4. Left: 17
+21:43:34.003 [pool-2-thread-1] INFO  com.skovorodina.task3.resource.Restaurant - Table freed. Free tables: 4
+21:43:34.004 [pool-2-thread-2] INFO  com.skovorodina.task3.entity.Visitor - Frank eating 4 dishes
+21:43:34.206 [pool-2-thread-2] INFO  com.skovorodina.task3.entity.Visitor - Frank left after eating

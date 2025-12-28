@@ -1,0 +1,2 @@
+21:43:34.206 [pool-2-thread-2] INFO  com.skovorodina.task3.resource.Restaurant - Table freed. Free tables: 5
+21:43:34.210 [main] INFO  com.skovorodina.task3.main.Main - Simulation done. Tables free: 5, Food left: 17

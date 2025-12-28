@@ -1,0 +1,13 @@
+21:40:47.095 [pool-2-thread-3] INFO  com.skovorodina.task3.entity.Visitor - Visitor Charlie (ID: 3) left restaurant
+21:40:47.096 [pool-2-thread-4] INFO  com.skovorodina.task3.entity.Visitor - Visitor Frank (ID: 6) arrived at restaurant
+21:40:47.096 [pool-2-thread-5] INFO  com.skovorodina.task3.entity.Visitor - Visitor Eve (ID: 5) left restaurant
+21:40:47.104 [pool-2-thread-4] INFO  com.skovorodina.task3.entity.Visitor - Visitor Frank (ID: 6) left restaurant
+21:40:47.105 [main] INFO  com.skovorodina.task3.main.Main - Simulation done. Tables free: 5, Food left: 30
+21:43:33.731 [main] INFO  skovorodina.task3.reader.impl.FileReaderImpl - Read 7 lines from data/config.txt
+21:43:33.737 [main] INFO  com.skovorodina.task3.main.Main - Restaurant: 5 tables, 30 food
+21:43:33.761 [main] INFO  com.skovorodina.task3.main.Main - Starting simulation with 6 visitors
+21:43:33.763 [pool-2-thread-1] INFO  com.skovorodina.task3.entity.Visitor - Alice (ID: 1) arrived, wants 2 dishes
+21:43:33.763 [pool-2-thread-2] INFO  com.skovorodina.task3.entity.Visitor - Bob (ID: 2) arrived, wants 1 dishes
+21:43:33.763 [pool-2-thread-4] INFO  com.skovorodina.task3.entity.Visitor - Diana (ID: 4) arrived, wants 2 dishes
+21:43:33.764 [pool-2-thread-5] INFO  com.skovorodina.task3.entity.Visitor - Eve (ID: 5) arrived, wants 1 dishes
+21:43:33.764 [pool-2-thread-3] INFO  com.skovorodina.task3.entity.Visitor - Charlie (ID: 3) arrived, wants 3 dishes
