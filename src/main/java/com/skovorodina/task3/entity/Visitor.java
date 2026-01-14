@@ -33,14 +33,15 @@ public class Visitor implements Callable<Boolean> {
 
     @Override
     public Boolean call() throws Exception {
-        Restaurant restaurant = Restaurant.getInstance(0, 0);
-        logger.info("{} (ID: {}) arrived, wants {} dishes", name, id, dishes);
 
+        Restaurant restaurant = Restaurant.getInstance();
 
         boolean gotTable = false;
         for (int attempt = 0; attempt < 3; attempt++) {
             if (restaurant.tryGetTable()) {
                 gotTable = true;
+
+                logger.info("{} (ID: {}) got table, wants {} dishes", name, id, dishes);
                 break;
             }
             TimeUnit.MILLISECONDS.sleep(100);

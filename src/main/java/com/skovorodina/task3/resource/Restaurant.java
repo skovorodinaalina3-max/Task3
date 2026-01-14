@@ -7,7 +7,7 @@ import org.apache.logging.log4j.Logger;
 
 public class Restaurant {
     private static final Logger logger = LogManager.getLogger();
-    private static Restaurant instance;
+    private static volatile Restaurant instance;
 
     private final Semaphore tables;
     private int food;
@@ -19,8 +19,20 @@ public class Restaurant {
     }
 
     public static Restaurant getInstance(int tableCount, int initialFood) {
+
         if (instance == null) {
-            instance = new Restaurant(tableCount, initialFood);
+            synchronized (Restaurant.class) {
+                if (instance == null) {
+                    instance = new Restaurant(tableCount, initialFood);
+                }
+            }
+        }
+        return instance;
+    }
+
+    public static Restaurant getInstance() {
+        if (instance == null) {
+            throw new IllegalStateException("Restaurant not initialized! Call getInstance(tableCount, food) first.");
         }
         return instance;
     }
@@ -58,6 +70,11 @@ public class Restaurant {
     }
 
     public int getAvailableFood() {
-        return food;
+        lock.lock();
+        try {
+            return food;
+        } finally {
+            lock.unlock();
+        }
     }
 }

@@ -1,4 +1,5 @@
 package com.skovorodina.task3.main;
+
 import com.skovorodina.task3.entity.Visitor;
 import com.skovorodina.task3.reader.FileReader;
 import com.skovorodina.task3.reader.impl.FileReaderImpl;
@@ -71,7 +72,7 @@ public class Main {
 
             try {
                 String[] parts = line.split(" ");
-                int id = i;
+                int id = i; // ID = номер строки (начиная с 1)
                 String name = parts[0];
                 int dishes = parts.length > 1 ? Integer.parseInt(parts[1]) : 1;
 
@@ -86,8 +87,11 @@ public class Main {
     }
 
     private static void runSimulation(Restaurant restaurant, List<Visitor> visitors) {
-        ExecutorService executor = Executors.newFixedThreadPool(restaurant.getAvailableTables());
-        logger.info("Starting simulation with {} visitors", visitors.size());
+        int poolSize = restaurant.getAvailableTables();
+        ExecutorService executor = Executors.newFixedThreadPool(poolSize);
+
+        logger.info("Starting simulation with {} visitors (max {} concurrent)",
+                visitors.size(), poolSize);
 
         try {
             List<Future<Boolean>> results = executor.invokeAll(visitors);
