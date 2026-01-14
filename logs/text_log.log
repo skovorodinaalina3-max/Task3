@@ -1,2 +1,6 @@
-19:33:59.066 [pool-2-thread-4] INFO  com.skovorodina.task3.resource.Restaurant - Table freed. Free tables: 5
-19:33:59.068 [main] INFO  com.skovorodina.task3.main.Main - Simulation done. Tables free: 5, Food left: 17
+18:49:32.492 [pool-2-thread-1] INFO  com.skovorodina.task3.entity.Visitor - Frank (ID: 6) got table, wants 4 dishes
+18:49:32.496 [pool-2-thread-1] INFO  com.skovorodina.task3.resource.Restaurant - Food taken: 4. Left: 17
+18:49:32.496 [pool-2-thread-1] INFO  com.skovorodina.task3.entity.Visitor - Frank eating 4 dishes
+18:49:32.698 [pool-2-thread-1] INFO  com.skovorodina.task3.entity.Visitor - Frank left after eating
+18:49:32.698 [pool-2-thread-1] INFO  com.skovorodina.task3.resource.Restaurant - Table freed. Free tables: 5
+18:49:32.699 [main] INFO  com.skovorodina.task3.main.Main - Simulation done. Tables free: 5, Food left: 17
